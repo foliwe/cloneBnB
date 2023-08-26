@@ -9,6 +9,21 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
     '@nuxtjs/tailwindcss'
-  ]
+  ],
+  app:
+      {
+      head:{
+        titleTemplate: 'CloneBnB | %s',
+        htmlAttrs: {
+          lang: 'en'
+        },
+        bodyAttrs: {
+          class: ["my-style"]
+        },
+        meta: [{
+          charset: "utf-8"
+        }]
+      }
+}
   
 })
