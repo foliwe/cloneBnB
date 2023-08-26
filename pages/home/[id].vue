@@ -52,7 +52,7 @@ home.value=findhome
 onMounted(() => {
   if (!window.google) {
     const script = document.createElement('script');
-    script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBIpxUg-uc0sBxJiCIxstSOBzwe6Mour7w&library=places';
+    script.src = 'https://maps.googleapis.com/maps/api/js?key=Keyw&library=places';
     script.defer = true;
     script.onload = initMap;
     document.head.appendChild(script);
